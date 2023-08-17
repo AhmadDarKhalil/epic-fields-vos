@@ -54,3 +54,47 @@ In order to evaluate your semi-supervised method in VISOR, execute the following
 ```bash
 python evaluation_method.py --task semi-supervised --results_path results/sample
 ```
+
+
+## Citation
+If you find this work useful please cite our paper:
+
+```
+    @article{EPICFIELDS2023,
+           title={{EPIC-FIELDS}: {M}arrying {3D} {G}eometry and {V}ideo {U}nderstanding},
+           author={Tschernezki, Vadim and Darkhalil, Ahmad and Zhu, Zhifan and Fouhey, David and Larina, Iro and Larlus, Diane and Damen, Dima and Vedaldi, Andrea},
+           booktitle   = {ArXiv},
+           year      = {2023}
+    } 
+```
+
+Also cite the [EPIC-KITCHENS-100](https://epic-kitchens.github.io) paper where the videos originate:
+
+```
+@ARTICLE{Damen2022RESCALING,
+           title={Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100},
+           author={Damen, Dima and Doughty, Hazel and Farinella, Giovanni Maria  and and Furnari, Antonino 
+           and Ma, Jian and Kazakos, Evangelos and Moltisanti, Davide and Munro, Jonathan 
+           and Perrett, Toby and Price, Will and Wray, Michael},
+           journal   = {International Journal of Computer Vision (IJCV)},
+           year      = {2022},
+           volume = {130},
+           pages = {33–55},
+           Url       = {https://doi.org/10.1007/s11263-021-01531-2}
+} 
+```
+For more information on the project and related research, please visit the [EPIC-Kitchens' EPIC Fields page](https://epic-kitchens.github.io/epic-fields/).
+
+
+## License
+All files in this dataset are copyright by us and published under the 
+Creative Commons Attribution-NonCommerial 4.0 International License, found 
+[here](https://creativecommons.org/licenses/by-nc/4.0/).
+This means that you must give appropriate credit, provide a link to the license,
+and indicate if changes were made. You may do so in any reasonable manner,
+but not in any way that suggests the licensor endorses you or your use. You
+may not use the material for commercial purposes.
+
+## Contact
+
+For general enquiries regarding this work or related projects, feel free to email us at [uob-epic-kitchens@bristol.ac.uk](mailto:uob-epic-kitchens@bristol.ac.uk).
