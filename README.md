@@ -50,7 +50,7 @@ The `fixed_3d.py` runs the **Fixed3D** baseline. The script take these parameter
 The results will be stored under <output-folder>  directory. 
 
 ## Evaluation
-In order to evaluate your semi-supervised method in VISOR, execute the following command substituting `results/sample` by the folder path that contains your results:
+In order to evaluate your semi-supervised method in VISOR we use [VISOR evaluation script](https://github.com/epic-kitchens/VISOR-VOS/tree/b6afe07691fad922ebacb42654046ef24a0fe3ba/evaldavis2017), execute the following command substituting `results/sample` by the folder path that contains your results:
 ```bash
 python evaluation_method.py --task semi-supervised --results_path results/sample
 ```
